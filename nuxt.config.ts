@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '/login/**': { appLayout: 'login' },
   },
 
+  css: ['@/assets/css/base.css'],
   modules: [
     '@nuxt/a11y',
     '@nuxt/eslint',

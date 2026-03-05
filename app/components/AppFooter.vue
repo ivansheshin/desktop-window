@@ -6,6 +6,6 @@
 
 <style scoped>
 .app-header {
-  background-color: red;
+  background-color: #B8C0C1;
 }
 </style>
