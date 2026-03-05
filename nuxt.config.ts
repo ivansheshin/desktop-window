@@ -6,6 +6,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
+  routeRules: {
+    '/': { appLayout: 'default' },
+    '/login/**': { appLayout: 'login' },
+  },
+
+  css: ['@/assets/css/base.css'],
   modules: [
     '@nuxt/a11y',
     '@nuxt/eslint',
